@@ -9,10 +9,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    # env:
-    #   working-directory: ./heroku_cicd
-
     steps:
+
+        working-directory: ./heroku_cicd
+
       - name: Development Code
         uses: actions/checkout@v2
       - name: Use Node.js 17.x
