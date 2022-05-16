@@ -9,8 +9,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    env:
-      working-directory: ./heroku_cicd
+    # env:
+    #   working-directory: ./heroku_cicd
 
     steps:
       - name: Development Code
