@@ -9,8 +9,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    # env:
-    #   working-directory: ./frontend
+    env:
+      working-directory: ./frontend
 
     steps:
       - name: Development Code
