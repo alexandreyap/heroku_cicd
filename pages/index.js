@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://cri.epita.fr/users/hugo.bringout/">My name is Hugo bringout</a>
+          Welcome to <a href="https://cri.epita.fr/users/hugo.bringout/">My name is Hugogo</a>
         </h1>
 
         <p className={styles.description}>
